@@ -72,7 +72,7 @@ A living checklist of where this project is headed. Check items off as
 they're finished -- GitHub renders `- [x]` as a ticked checkbox. (btw the check boxes are for when both of complete said thing or
 when it is genuinely done -Jober)
 
-### Phase 0 -- Rust ramp-up *(Weeks 1-4)*
+### Phase 0 -- Rust ramp-up (learning)
 > Get comfortable with the language before building on it for real.
 
 - [ ] Work through *The Rust Book*, chapters 1-10 (ownership, structs, enums, error handling)
@@ -81,7 +81,7 @@ when it is genuinely done -Jober)
 - [ ] Pair on a tiny shared toy project to practice git workflow + code review together
 - [ ] Read `ratatui`'s official tutorial and run their counter-app example locally
 
-### Phase 1 -- Foundation: core lookup engine *(Months 2-3)*
+### Phase 1 -- Foundation: core lookup engine 
 > Ship a working binary that can look up any verse or passage offline, fast.
 
 - [x] Project scaffolding: Cargo workspace split into `gw-core` (lib), `gw-cli` (bin), `gw-tui` (placeholder)
@@ -91,7 +91,7 @@ when it is genuinely done -Jober)
 - [ ] Core commands: `gw search`, `gw random`
 - [ ] CI pipeline: GitHub Actions, `cargo test`, cross-platform builds (Linux/macOS/Windows)
 
-### Phase 2 -- Search & scripting *(Months 4-6)*
+### Phase 2 -- Search & scripting 
 > Make the tool genuinely useful in pipelines and for fast reference work.
 
 - [ ] Full-text search across translations with relevance ranking
@@ -101,7 +101,7 @@ when it is genuinely done -Jober)
 - [ ] Config file support (default translation, color preferences)
 - [ ] Refactor: confirm all lookup/search logic lives in `gw-core`, callable from CLI or TUI
 
-### Phase 3 -- TUI mode: full-screen interactive UI *(Months 7-10)*
+### Phase 3 -- TUI mode: full-screen interactive UI 
 > Build the terminal UI as its own crate consuming `gw-core` -- a real second interface, not an afterthought.
 
 - [ ] Learn `ratatui` basics: `terminal.draw` loop, widgets, layout constraints (small toy app first)
@@ -112,7 +112,7 @@ when it is genuinely done -Jober)
 - [ ] Launch TUI as default when run with no args; single-shot commands still work as before
 - [ ] Polish: scrolling, multi-pane layout, resize handling
 
-### Phase 4 -- Study & polish *(Months 11-14)*
+### Phase 4 -- Study & polish 
 > Add study depth, then focus hard on packaging and distribution.
 
 - [ ] Cross-reference lookups (e.g. Treasury of Scripture Knowledge data) in both CLI and TUI
