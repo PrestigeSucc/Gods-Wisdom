@@ -1,9 +1,9 @@
 # gw
 
-<!--
+
   This tool is being built for people who enjoy reading/studying the Lord's Word, for people who enjoy cli/tui tools, and for 
 people who enjoy speed and efficiency!
--->
+
 
 A command-line Bible tool, written in Rust.
 
