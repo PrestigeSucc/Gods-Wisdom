@@ -1,0 +1,16 @@
+[package]
+name = "gw-tui"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "gw-tui"
+path = "src/main.rs"
+
+[dependencies]
+gw-core = { path = "../gw-core/" }
+
+# Intentionally no ratatui/crossterm dependency yet -- that gets added in 
+# phase 3 of the roadmap, once the ramp-up ratatui tutorial is done. Keeping
+# this crate as an empty placeholder for now means 'cargo build' across the 
+# whole workspace still works today.
