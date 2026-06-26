@@ -16,7 +16,8 @@ A command-line Bible tool, written in Rust.
 
 🚧 Early days -- phase 1 of the roadmap below. The core lookup engine
 compiles, runs, and has passing tests, but verse text is still a
-placeholder (no real KJV/ASV/WEB data wired up yet).
+placeholder (no real KJV/ASV/WEB data wired up yet). We are still working on
+learning rust aswell, so technically still in phase 0, but ye.
 
 ## Layout
 
