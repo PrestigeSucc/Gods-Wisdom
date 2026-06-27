@@ -1,0 +1,14 @@
+# CODEOWNERS
+#
+# Rules are matched top-to-bottom, gitignore-style, and the LAST matching
+# rule wins -- not the most specific one, the last one written in the file.
+# So keep broad defaults near the top and put any exceptions below them.
+#
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default: anyone not covered by a more specific rule below falls to both
+# of us. 
+* @PrestigeSucc @CodingForJesus7
+
+# Workflow files are a common supply-chain attack target
+/.github/workflows/ @PrestigeSucc @CodingForJesus7
