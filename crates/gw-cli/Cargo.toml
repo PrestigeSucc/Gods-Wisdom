@@ -2,7 +2,7 @@
 name = "gw-cli"
 version.workspace = true
 edition.workspace = true
-
+license = true
 # This produces a binary named 'gw' instead of 'gw-cli', so users 
 # type 'gw get "John 3:16"' rather than 'gw-cli get "John 3:16"'.
 
@@ -14,4 +14,3 @@ path = "src/main.rs"
 gw-core = { path = "../gw-core/" }
 anyhow.workspace = true
 clap.workspace = true
-
